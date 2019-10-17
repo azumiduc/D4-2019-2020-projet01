@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is a site about bees </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/typo.css">
+    <link rel="stylesheet" href="css/master.css">
+<body>
+    <style>
+
+    article {
+      display: flex;
+      flex:1;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      max-height: 80vh;
+    }
+
+    #bubble {
+      position: relative;
+      margin-top: 0vh;
+      margin-left: 30px;
+
+    }
+    #ruche {
+      margin-top: 30vh;
+      position: absolute;
+    }
+
+    #bubble-text {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+
+    #barnabee {
+      position: absolute;
+      bottom: 455px;
+      right: 0;
+    }
+
+#step1{
+
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <article>
+      <div id="ruche">
+        <img src="images/ruche.png"
+          height="700px">
+
+      <div id="bubble">
+            <img src="images/bubble.png"
+              height="170px">
+      <div id="bubble-text">
+        <center class="mansalva">
+          <p id="bubble-text">Now you're inside the hive, look at all these little boxes !</p>
+          <p>They are cells of beeswax. We use them for the storage of food or eggs of future bees. </p>
+        </center>
+      </div>
+        <video id="barnabee" width="320" height="240" autoplay muted loop>
+          <source src="medias/barnabee.webm" type="video/webm">
+                Your browser does not support the video tag.
+          </video>
+      </div>
+    </div>
+<h1>
+  <a id="step1" href="step03.html"> The flower</a>
+</h1>
+</article>
+
+<footer>
+<nav>
+  <ul>
+    <li><a href="step01.html">Previous</a></li>
+    <li><a href="index.html">Top</a></li>
+    <li><a href="step03.html">Next</a></li>
+
+  </ul>
+</nav>
+</footer>
+  </body>
+</html>

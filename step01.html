@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is a site about bees </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/typo.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <style>
+      article {
+        display: flex;
+        flex: 1;
+        height: 80vh;
+        max-height: 80vh;
+      }
+
+      #ruche {
+        margin-top: 10vh;
+      }
+
+      #bubble {
+        position: relative;
+        margin-top: 30vh;
+        margin-left: 30px;
+
+      }
+
+      #bubble-text {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+
+      }
+
+      #hey {
+        margin-bottom: 10px;
+      }
+
+      #barnabee {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 120px;
+        margin-left: 0;
+        margin-right: -260px;
+      }
+
+      #follow {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+      }
+    </style>
+  </head>
+  <body>
+
+<article>
+  <div id="ruche">
+    <img src="images/laruche.png" height="400vh">
+  </div>
+  <div id="bubble">
+    <img src="images/bubble.png" height="150px">
+  <div id="bubble-text">
+    <center class="mansalva">
+      <p id="hey">This is my house !</p>
+      <p>Come in. </p>
+    </center>
+  </div>
+    <video id="barnabee" width="320" height="240" autoplay muted loop>
+      <source src="medias/barnabee.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+      <h1>
+      <a id="follow" href="step02.html"> Enter the hive</a>
+    </h1>
+  </div>
+</article>
+
+<footer>
+  <nav>
+    <ul>
+      <li><a href="index.html"> < Previous</a></li>
+      <li><a href="#">Top</a></li>
+      <li><a href="step02.html">Next > </a></li>
+
+    </ul>
+  </nav>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is a site about bees</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/typo.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      article {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 80vh;
+      }
+
+      #bubble {
+        position: relative;
+        margin-top: 20vh;
+        margin-left: -80px;
+      }
+
+
+
+      #bubble-text {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+
+      #hey {
+        margin-bottom: 10px;
+      }
+
+      #barnabee {
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        margin-right: -250px;
+        margin-bottom: -100px;
+      }
+
+      #follow {
+        display: flex;
+        justify-content: center;
+            }
+
+    </style>
+
+  </head>
+
+
+  <body>
+
+
+  <article>
+    <h1>
+
+
+
+  <div id="bubble">
+    <img src="images/bubble.png"
+      height="180px">
+
+    <div id="bubble-text">
+      <center>
+        <p id="hey">Hey hey hey !</p>
+        <p>My name is Barnabee. <br />
+         I am here to show you my life.</p>
+        <p>Come in !</p>
+      </center>
+    </div>
+
+    <video id="barnabee" width="320" height="240" autoplay muted loop>
+      <source src="medias/barnabee.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+
+  </h1>
+
+  <h2>
+    <a id="follow" href="step01.html"> Follow Barnabee</a>
+
+  </h2>
+  </article>
+
+
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="step04.html"> < Previous</a></li>
+        <li><a href="#">Top</a></li>
+        <li><a href="step01.html">Next > </a></li>
+
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="scripts/bodymovin.js"></script>
+  <script src="scripts/index.js"></script>
+  </body>
+</html>
