@@ -45,7 +45,6 @@ h1 {
     margin-top: 1em;
     font-size: 1.209em;
     align-items: center;
-    height: 600px;
 
   }
 
@@ -64,5 +63,28 @@ h1 {
 
 }
   video {
-    margin-left: 30rem;
+
   }
+
+
+  .bubble-text {
+      font-family: 'Mansalva', cursive;
+      font-weight: 400;
+      line-height: 1.15;
+      background: url('images/ruche.png') top center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 100vh;
+  }
+
+.bubble-text-content {
+    background: url('images/bubble.png') ;
+    background-size: cover;
+    width: 420px;
+    height: 172px ;
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
